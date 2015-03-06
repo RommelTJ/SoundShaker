@@ -19,6 +19,7 @@
 		77B74AE41AA96A6B00047266 /* Mind+Your+Manners+(Official+Audio)+-+Pearl+Jam.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 77B74ADE1AA96A6B00047266 /* Mind+Your+Manners+(Official+Audio)+-+Pearl+Jam.mp3 */; };
 		77B74AE51AA96A6B00047266 /* Unknown+Mortal+Orchestra-+Bicycle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 77B74ADF1AA96A6B00047266 /* Unknown+Mortal+Orchestra-+Bicycle.mp3 */; };
 		77B74AE61AA96A6B00047266 /* Lorde+-+Royals+(US+Version).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 77B74AE01AA96A6B00047266 /* Lorde+-+Royals+(US+Version).mp3 */; };
+		77B74AE91AA96C5A00047266 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77B74AE81AA96C5A00047266 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		77B74ADE1AA96A6B00047266 /* Mind+Your+Manners+(Official+Audio)+-+Pearl+Jam.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Mind+Your+Manners+(Official+Audio)+-+Pearl+Jam.mp3"; path = "../../../../Music/Mind+Your+Manners+(Official+Audio)+-+Pearl+Jam.mp3"; sourceTree = "<group>"; };
 		77B74ADF1AA96A6B00047266 /* Unknown+Mortal+Orchestra-+Bicycle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Unknown+Mortal+Orchestra-+Bicycle.mp3"; path = "../../../../Music/Unknown+Mortal+Orchestra-+Bicycle.mp3"; sourceTree = "<group>"; };
 		77B74AE01AA96A6B00047266 /* Lorde+-+Royals+(US+Version).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lorde+-+Royals+(US+Version).mp3"; path = "../../../../Music/Lorde+-+Royals+(US+Version).mp3"; sourceTree = "<group>"; };
+		77B74AE81AA96C5A00047266 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77B74AE91AA96C5A00047266 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +74,7 @@
 		77B74AAD1AA96A5100047266 = {
 			isa = PBXGroup;
 			children = (
+				77B74AE81AA96C5A00047266 /* AVFoundation.framework */,
 				77B74AE71AA96A7600047266 /* Sounds */,
 				77B74AB81AA96A5100047266 /* SoundShaker */,
 				77B74ACE1AA96A5100047266 /* SoundShakerTests */,
