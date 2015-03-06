@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		77B74ABC1AA96A5100047266 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B74ABB1AA96A5100047266 /* AppDelegate.swift */; };
+		77B74ABE1AA96A5100047266 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B74ABD1AA96A5100047266 /* ViewController.swift */; };
+		77B74AC11AA96A5100047266 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77B74ABF1AA96A5100047266 /* Main.storyboard */; };
+		77B74AC31AA96A5100047266 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77B74AC21AA96A5100047266 /* Images.xcassets */; };
+		77B74AC61AA96A5100047266 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77B74AC41AA96A5100047266 /* LaunchScreen.xib */; };
+		77B74AD21AA96A5100047266 /* SoundShakerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B74AD11AA96A5100047266 /* SoundShakerTests.swift */; };
+		77B74AE11AA96A6B00047266 /* The+Clash+Spanish+Bombs.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 77B74ADB1AA96A6B00047266 /* The+Clash+Spanish+Bombs.mp3 */; };
+		77B74AE21AA96A6B00047266 /* Little+Dragon+-+Shuffle+A+Dream+[Album+Version].mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 77B74ADC1AA96A6B00047266 /* Little+Dragon+-+Shuffle+A+Dream+[Album+Version].mp3 */; };
+		77B74AE31AA96A6B00047266 /* The+Hives.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 77B74ADD1AA96A6B00047266 /* The+Hives.mp3 */; };
+		77B74AE41AA96A6B00047266 /* Mind+Your+Manners+(Official+Audio)+-+Pearl+Jam.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 77B74ADE1AA96A6B00047266 /* Mind+Your+Manners+(Official+Audio)+-+Pearl+Jam.mp3 */; };
+		77B74AE51AA96A6B00047266 /* Unknown+Mortal+Orchestra-+Bicycle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 77B74ADF1AA96A6B00047266 /* Unknown+Mortal+Orchestra-+Bicycle.mp3 */; };
+		77B74AE61AA96A6B00047266 /* Lorde+-+Royals+(US+Version).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 77B74AE01AA96A6B00047266 /* Lorde+-+Royals+(US+Version).mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		77B74ACC1AA96A5100047266 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 77B74AAE1AA96A5100047266 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77B74AB51AA96A5100047266;
+			remoteInfo = SoundShaker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		77B74AB61AA96A5100047266 /* SoundShaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoundShaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		77B74ABA1AA96A5100047266 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77B74ABB1AA96A5100047266 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		77B74ABD1AA96A5100047266 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		77B74AC01AA96A5100047266 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		77B74AC21AA96A5100047266 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		77B74AC51AA96A5100047266 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		77B74ACB1AA96A5100047266 /* SoundShakerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoundShakerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		77B74AD01AA96A5100047266 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77B74AD11AA96A5100047266 /* SoundShakerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundShakerTests.swift; sourceTree = "<group>"; };
+		77B74ADB1AA96A6B00047266 /* The+Clash+Spanish+Bombs.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "The+Clash+Spanish+Bombs.mp3"; path = "../../../../Music/The+Clash+Spanish+Bombs.mp3"; sourceTree = "<group>"; };
+		77B74ADC1AA96A6B00047266 /* Little+Dragon+-+Shuffle+A+Dream+[Album+Version].mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Little+Dragon+-+Shuffle+A+Dream+[Album+Version].mp3"; path = "../../../../Music/Little+Dragon+-+Shuffle+A+Dream+[Album+Version].mp3"; sourceTree = "<group>"; };
+		77B74ADD1AA96A6B00047266 /* The+Hives.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "The+Hives.mp3"; path = "../../../../Music/The+Hives.mp3"; sourceTree = "<group>"; };
+		77B74ADE1AA96A6B00047266 /* Mind+Your+Manners+(Official+Audio)+-+Pearl+Jam.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Mind+Your+Manners+(Official+Audio)+-+Pearl+Jam.mp3"; path = "../../../../Music/Mind+Your+Manners+(Official+Audio)+-+Pearl+Jam.mp3"; sourceTree = "<group>"; };
+		77B74ADF1AA96A6B00047266 /* Unknown+Mortal+Orchestra-+Bicycle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Unknown+Mortal+Orchestra-+Bicycle.mp3"; path = "../../../../Music/Unknown+Mortal+Orchestra-+Bicycle.mp3"; sourceTree = "<group>"; };
+		77B74AE01AA96A6B00047266 /* Lorde+-+Royals+(US+Version).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lorde+-+Royals+(US+Version).mp3"; path = "../../../../Music/Lorde+-+Royals+(US+Version).mp3"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		77B74AB31AA96A5100047266 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77B74AC81AA96A5100047266 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		77B74AAD1AA96A5100047266 = {
+			isa = PBXGroup;
+			children = (
+				77B74AE71AA96A7600047266 /* Sounds */,
+				77B74AB81AA96A5100047266 /* SoundShaker */,
+				77B74ACE1AA96A5100047266 /* SoundShakerTests */,
+				77B74AB71AA96A5100047266 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		77B74AB71AA96A5100047266 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				77B74AB61AA96A5100047266 /* SoundShaker.app */,
+				77B74ACB1AA96A5100047266 /* SoundShakerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		77B74AB81AA96A5100047266 /* SoundShaker */ = {
+			isa = PBXGroup;
+			children = (
+				77B74ABB1AA96A5100047266 /* AppDelegate.swift */,
+				77B74ABD1AA96A5100047266 /* ViewController.swift */,
+				77B74ABF1AA96A5100047266 /* Main.storyboard */,
+				77B74AC21AA96A5100047266 /* Images.xcassets */,
+				77B74AC41AA96A5100047266 /* LaunchScreen.xib */,
+				77B74AB91AA96A5100047266 /* Supporting Files */,
+			);
+			path = SoundShaker;
+			sourceTree = "<group>";
+		};
+		77B74AB91AA96A5100047266 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				77B74ABA1AA96A5100047266 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		77B74ACE1AA96A5100047266 /* SoundShakerTests */ = {
+			isa = PBXGroup;
+			children = (
+				77B74AD11AA96A5100047266 /* SoundShakerTests.swift */,
+				77B74ACF1AA96A5100047266 /* Supporting Files */,
+			);
+			path = SoundShakerTests;
+			sourceTree = "<group>";
+		};
+		77B74ACF1AA96A5100047266 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				77B74AD01AA96A5100047266 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		77B74AE71AA96A7600047266 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				77B74ADB1AA96A6B00047266 /* The+Clash+Spanish+Bombs.mp3 */,
+				77B74ADC1AA96A6B00047266 /* Little+Dragon+-+Shuffle+A+Dream+[Album+Version].mp3 */,
+				77B74ADD1AA96A6B00047266 /* The+Hives.mp3 */,
+				77B74ADE1AA96A6B00047266 /* Mind+Your+Manners+(Official+Audio)+-+Pearl+Jam.mp3 */,
+				77B74ADF1AA96A6B00047266 /* Unknown+Mortal+Orchestra-+Bicycle.mp3 */,
+				77B74AE01AA96A6B00047266 /* Lorde+-+Royals+(US+Version).mp3 */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		77B74AB51AA96A5100047266 /* SoundShaker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77B74AD51AA96A5100047266 /* Build configuration list for PBXNativeTarget "SoundShaker" */;
+			buildPhases = (
+				77B74AB21AA96A5100047266 /* Sources */,
+				77B74AB31AA96A5100047266 /* Frameworks */,
+				77B74AB41AA96A5100047266 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SoundShaker;
+			productName = SoundShaker;
+			productReference = 77B74AB61AA96A5100047266 /* SoundShaker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		77B74ACA1AA96A5100047266 /* SoundShakerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77B74AD81AA96A5100047266 /* Build configuration list for PBXNativeTarget "SoundShakerTests" */;
+			buildPhases = (
+				77B74AC71AA96A5100047266 /* Sources */,
+				77B74AC81AA96A5100047266 /* Frameworks */,
+				77B74AC91AA96A5100047266 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				77B74ACD1AA96A5100047266 /* PBXTargetDependency */,
+			);
+			name = SoundShakerTests;
+			productName = SoundShakerTests;
+			productReference = 77B74ACB1AA96A5100047266 /* SoundShakerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		77B74AAE1AA96A5100047266 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Rommel Rico";
+				TargetAttributes = {
+					77B74AB51AA96A5100047266 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					77B74ACA1AA96A5100047266 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 77B74AB51AA96A5100047266;
+					};
+				};
+			};
+			buildConfigurationList = 77B74AB11AA96A5100047266 /* Build configuration list for PBXProject "SoundShaker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 77B74AAD1AA96A5100047266;
+			productRefGroup = 77B74AB71AA96A5100047266 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				77B74AB51AA96A5100047266 /* SoundShaker */,
+				77B74ACA1AA96A5100047266 /* SoundShakerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		77B74AB41AA96A5100047266 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77B74AE31AA96A6B00047266 /* The+Hives.mp3 in Resources */,
+				77B74AE61AA96A6B00047266 /* Lorde+-+Royals+(US+Version).mp3 in Resources */,
+				77B74AE41AA96A6B00047266 /* Mind+Your+Manners+(Official+Audio)+-+Pearl+Jam.mp3 in Resources */,
+				77B74AC11AA96A5100047266 /* Main.storyboard in Resources */,
+				77B74AE21AA96A6B00047266 /* Little+Dragon+-+Shuffle+A+Dream+[Album+Version].mp3 in Resources */,
+				77B74AC61AA96A5100047266 /* LaunchScreen.xib in Resources */,
+				77B74AC31AA96A5100047266 /* Images.xcassets in Resources */,
+				77B74AE51AA96A6B00047266 /* Unknown+Mortal+Orchestra-+Bicycle.mp3 in Resources */,
+				77B74AE11AA96A6B00047266 /* The+Clash+Spanish+Bombs.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77B74AC91AA96A5100047266 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		77B74AB21AA96A5100047266 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77B74ABE1AA96A5100047266 /* ViewController.swift in Sources */,
+				77B74ABC1AA96A5100047266 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77B74AC71AA96A5100047266 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77B74AD21AA96A5100047266 /* SoundShakerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		77B74ACD1AA96A5100047266 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 77B74AB51AA96A5100047266 /* SoundShaker */;
+			targetProxy = 77B74ACC1AA96A5100047266 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		77B74ABF1AA96A5100047266 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77B74AC01AA96A5100047266 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		77B74AC41AA96A5100047266 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77B74AC51AA96A5100047266 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		77B74AD31AA96A5100047266 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		77B74AD41AA96A5100047266 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		77B74AD61AA96A5100047266 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SoundShaker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		77B74AD71AA96A5100047266 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SoundShaker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		77B74AD91AA96A5100047266 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SoundShakerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoundShaker.app/SoundShaker";
+			};
+			name = Debug;
+		};
+		77B74ADA1AA96A5100047266 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SoundShakerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoundShaker.app/SoundShaker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		77B74AB11AA96A5100047266 /* Build configuration list for PBXProject "SoundShaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77B74AD31AA96A5100047266 /* Debug */,
+				77B74AD41AA96A5100047266 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77B74AD51AA96A5100047266 /* Build configuration list for PBXNativeTarget "SoundShaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77B74AD61AA96A5100047266 /* Debug */,
+				77B74AD71AA96A5100047266 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		77B74AD81AA96A5100047266 /* Build configuration list for PBXNativeTarget "SoundShakerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77B74AD91AA96A5100047266 /* Debug */,
+				77B74ADA1AA96A5100047266 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 77B74AAE1AA96A5100047266 /* Project object */;
+}
